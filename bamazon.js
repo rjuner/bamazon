@@ -11,5 +11,14 @@ var connection = mysql.createConnection({
 
 connection.connect(function(err){
 	if(err) throw err; 
-})
+}); 
+
+function selection(){
+	inquirer.prompt([
+		{
+			type: 
+
+		}
+	])
+}
 
