@@ -16,9 +16,17 @@ connection.connect(function(err){
 function selection(){
 	inquirer.prompt([
 		{
-			type: 
-
+			type: "input", 
+			message: "Enter ID of item you want to purchase: ", 
+			name: "userSelection"
+		}, 
+		{
+			type: "input", 
+			message: "Enter quantity of items you want to purchase: ",
+			name: "userQuantity"
 		}
-	])
+	]).then(function(user)){
+		switch(user
+	}
 }
 
